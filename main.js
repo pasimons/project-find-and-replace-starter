@@ -24,7 +24,7 @@ function getCellElements (currentRowElement) {
 
 replaceAllButton.addEventListener("click", function(){
     
-    // findInput and replaceInput
+    
 
    let findText = findInput.value 
    let changeText = replaceInput.value
@@ -32,15 +32,18 @@ replaceAllButton.addEventListener("click", function(){
 for (let index = 0; index < rowElements.length; index++){
     getCellElements(rowElements[index])
 }
+console.log("hi Patricia");
+console.log('click button');
 
+let rowElements = getCellElements;
+for (let i = 0; i < rowElements.length; i++ ){
+console.log(getCellElements[i]);
+}
 
-console.log("change name");
-console.log('click button')
 })
 
 
-//rowElements
-//getCellElements
+
 
 
 
