@@ -35,9 +35,10 @@ for (let index = 0; index < rowElements.length; index++){
 console.log("hi Patricia");
 console.log('click button');
 
-let rowElements = getCellElements;
-for (let i = 0; i < rowElements.length; i++ ){
-console.log(getCellElements[i]);
+
+for (let i = 0; i < rowElements.length; i++){
+    console.log(rowElements[getCellElements.lenth + i])
+
 }
 
 })
