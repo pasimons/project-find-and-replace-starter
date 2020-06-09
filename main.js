@@ -35,6 +35,8 @@ replaceAllButton.addEventListener("click", function () {
         for (let cellIndex = 0; cellIndex < cellElements.length; cellIndex += 1 ){
             const currentCell = cellElements[cellIndex];
             console.log(currentCell);
+
+            
         }
         console.log("hi")
     }
